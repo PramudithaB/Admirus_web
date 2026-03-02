@@ -1,9 +1,8 @@
 # Dependencies
 /node_modules/
 
-# Production
-/out/
-/.next/
+# Build output (allow out/)
+.next/
 /build/
 /dist/
 
