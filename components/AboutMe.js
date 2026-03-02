@@ -1,7 +1,7 @@
 const AboutMe = ({
   wrapperClass = "about-wrapper about-1 style-2 about-page section-padding",
-  img1 = "assets/img/about/09.jpg",
-  img2 = "assets/img/about/10.png",
+  img1 = "assets/img/feature/admirus1.jpeg",
+  img2 = "assets/img/feature/admirus1.jpeg",
 }) => {
   return (
     <section className={wrapperClass}>
@@ -19,7 +19,7 @@ const AboutMe = ({
               />
               <img
                 className="shape-2"
-                src="assets/img/shape/shape-1.png"
+                src="assets/img/feature/admirus1.jpeg"
                 alt=""
               />
               <div className="image-1">
@@ -40,13 +40,11 @@ const AboutMe = ({
                   <span>ABOUT OUR COMPANY</span>
                 </div>
                 <h2>
-                  Accelerate Innovation <br /> with World-Class Tech
+                  One OS, Your Complete Brand Legacy<br /> 
                 </h2>
               </div>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team of incredible freelance talent for
-                all your software development needs.
+               Admirus Business Circle (Pvt) Ltd operates on a unified architecture where specialized in-house modules run synchronously to build iconic brands. [cite: 22, 24] We believe great branding is a fully operational experience, engineered to be felt and remembered.
               </p>
               <ul>
                 <li>
@@ -55,13 +53,17 @@ const AboutMe = ({
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Dramatically re-engineer value added IT systems via mission
+                  Digital Marketing &amp; Social Media Management
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Graphic Design &amp; Branding
                 </li>
               </ul>
               <div className="feedback">
                 <div className="infu">
                   <img src="assets/img/about/06.png" alt="" />
-                  <h6>Join our 50503+ Satisfied World Clients</h6>
+                  <h6>Proven Results Across 300+ Brands</h6>
                 </div>
                 <div className="infu">
                   <div className="icon-box d-flex align-items-center">
@@ -71,7 +73,7 @@ const AboutMe = ({
                     <h6>Global Company</h6>
                   </div>
                   <p>
-                    Our great team of more than to 1400 software experts member.
+                    Our great team of more than to 20  member.
                   </p>
                 </div>
               </div>
@@ -85,7 +87,7 @@ const AboutMe = ({
                     <span className="text-white opacity-50">
                       Call to ask any question
                     </span>
-                    <h4 className="text-white">0123-456-7890</h4>
+                    <h4 className="text-white">+94 76 037 4123</h4>
                   </div>
                 </div>
               </div>

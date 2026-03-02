@@ -33,13 +33,12 @@ const page = () => {
                 <h1>The First Sri Lankan
 Integrated Creative Brand OS</h1>
                 <p>
-                  In today's competitive business, the demand for efficient and
-                  cost- <br /> effective IT solutions has never been more
-                  critical.
+                 Concept Into Iconic. We are not just an agency—we are your brand's foundational platform,
+                  integrating strategy, storytelling, production, and promotion into one intelligent, scalable system
                 </p>
                 <div className="hero-button mt-4">
-                  <Link href="causes" className="theme-btn">
-                    Schedule a Free Consultation
+                  <Link href="/contact" className="theme-btn">
+                    Let's Build Your Brand Universe
                   </Link>
                 </div>
               </div>
@@ -114,7 +113,7 @@ Integrated Creative Brand OS</h1>
         </div>
         <div
           className="features-images bg-cover "
-          style={{ backgroundImage: "url(assets/img/feature/bg01.jpg)" }}
+          style={{ backgroundImage: "url(assets/img/hero/adbg.jpeg)" }}
         />
       </section>
       {/* About Section Start */}

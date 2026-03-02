@@ -112,13 +112,18 @@ const Header2 = () => {
             <div className="header-main ">
               <div className="header-left">
                 <div className="logo">
-                 <Link href="/" className="header-logo">
-  <img 
-    src="assets/img/hero/admirus.jpeg" 
-    alt="logo-img" 
-    style={{ width: "100px", height: "auto", objectFit: "contain" }} 
-  />
-</Link>
+                  <Link href="/" className="header-logo">
+                    <img
+                      src="assets/img/hero/admirus.jpeg"
+                      alt="logo-img"
+                      style={{
+                        width: "100px",
+                        height: "100px",
+                        objectFit: "cover",
+                        borderRadius: "50%",
+                      }}
+                    />
+                  </Link>
                 </div>
               </div>
               <div className="header-right">
@@ -373,8 +378,8 @@ const Menu = () => {
           </li>
           <li className="has-dropdown active d-xl-none">
             <a href="#" className="border-none">  </a>
-              Home
-              {/* <i className="fas fa-angle-down" />
+            Home
+            {/* <i className="fas fa-angle-down" />
             </a>
             <ul className="submenu">
               <li>
@@ -475,7 +480,7 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
