@@ -59,7 +59,7 @@ const page = () => {
                 data-wow-delay="300ms"
               >
                 <div className="hero-image">
-                  <img src="assets/img/hero/hero-1.png" alt />
+                  <img src="assets/img/hero/home.png" alt />
                 </div>
               </div>
             </div>

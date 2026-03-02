@@ -28,7 +28,8 @@ const page = () => {
                 className="hero-content pe-3 text-lg-start text-center wow fadeInLeft"
                 data-wow-delay="400ms"
               >
-                <h1>Your IT Partner for Digital Solution</h1>
+                <h1>The First Sri Lankan
+Integrated Creative Brand OS</h1>
                 <p>
                   In today's competitive business, the demand for efficient and
                   cost- <br /> effective IT solutions has never been more
@@ -46,7 +47,7 @@ const page = () => {
               data-wow-delay="400ms"
             >
               <div className="hero-image ">
-                <img src="assets/img/hero/hero-2.png" alt />
+                <img src="assets/img/hero/home1.png" alt />
               </div>
             </div>
           </div>
