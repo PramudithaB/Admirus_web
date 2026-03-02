@@ -6,10 +6,13 @@ import { Testimonial2 } from "@/components/slider/Testimonial";
 import { Home2Accordion } from "@/components/ZotechAccordion";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";
+import Head from "next/head";
 
 const page = () => {
   return (
+    
     <ZotechLayout header={2} footer={2} bodyClass="section-bg-2">
+      
       {/* Hero Section Start */}
       <section className="hero-wrapper hero-1 style-2 ">
         <div className="shape">
