@@ -139,7 +139,7 @@ const Header2 = () => {
                     </a>
                     <div className="title">
                       <p>Phone:</p>
-                      <span>(704) 555-0.127</span>
+                      <span>+94 76 037 4123</span>
                     </div>
                   </div>
                 </div>
@@ -308,27 +308,27 @@ const Menu = () => {
       <nav id="mobile-menu" className="d-none d-xl-block">
         <ul>
           <li className="has-dropdown active menu-thumb">
-            <Link href="/">
+            <Link href="/index-2">
               Home
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu has-homemenu">
               <li>
                 <div className="homemenu-items">
-                  <div className="homemenu">
+                  {/* <div className="homemenu">
                     <div className="homemenu-thumb">
                       <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
-                        {/* <Link href="/" className="theme-btn">
+                        <Link href="/" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
-                        </Link> */}
+                        </Link>
                       </div>
                     </div>
-                    {/* <div className="homemenu-content text-center">
+                    <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 01</h4>
-                    </div> */}
-                  </div>
-                  <div className="homemenu">
+                    </div>
+                  </div> */}
+                  {/* <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-2.jpg" alt="img" />
                       <div className="demo-button">
@@ -340,43 +340,43 @@ const Menu = () => {
                     <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 02</h4>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="homemenu">
-                    <div className="homemenu-thumb mb-15">
+                    {/* <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-3.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="/index-3" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 03</h4>
                     </div> */}
                   </div>
-                  <div className="homemenu">
+                  {/* <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-4.jpg" alt="img" />
                       <div className="demo-button">
-                        {/* <Link href="/index-4" className="theme-btn">
+                        <Link href="/index-4" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
-                        </Link> */}
+                        </Link>
                       </div>
                     </div>
-                    {/* <div className="homemenu-content text-center">
+                    <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 04</h4>
-                    </div> */}
-                  </div>
+                    </div>
+                  </div> */}
                 </div>
               </li>
             </ul>
           </li>
           <li className="has-dropdown active d-xl-none">
-            {/* <a href="#" className="border-none">
+            <a href="#" className="border-none">  </a>
               Home
-              <i className="fas fa-angle-down" />
-            </a> */}
-            {/* <ul className="submenu">
+              {/* <i className="fas fa-angle-down" />
+            </a>
+            <ul className="submenu">
               <li>
                 <Link href="/index">Home 01</Link>
               </li>
@@ -517,7 +517,7 @@ const MobileMenu = () => {
                           Home
                           <i className="fas fa-angle-down" />
                         </Link>
-                        <ul className="submenu has-homemenu">
+                        {/* <ul className="submenu has-homemenu">
                           <li>
                             <div className="homemenu-items">
                               <div className="homemenu">
@@ -594,7 +594,7 @@ const MobileMenu = () => {
                               </div>
                             </div>
                           </li>
-                        </ul>
+                        </ul> */}
                         <a className="mean-expand" href="#">
                           <i className="far fa-plus" />
                         </a>
@@ -608,7 +608,7 @@ const MobileMenu = () => {
                           Home
                           <i className="fas fa-angle-down" />
                         </a>
-                        <ul className="submenu" style={activeLi("home")}>
+                        {/* <ul className="submenu" style={activeLi("home")}>
                           <li>
                             <Link href="/">Home 01</Link>
                           </li>
@@ -621,7 +621,7 @@ const MobileMenu = () => {
                           <li>
                             <Link href="index-4">Home 04</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                         <a
                           className="mean-expand"
                           href="#"

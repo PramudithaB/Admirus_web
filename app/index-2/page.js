@@ -6,7 +6,6 @@ import { Testimonial2 } from "@/components/slider/Testimonial";
 import { Home2Accordion } from "@/components/ZotechAccordion";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";
-import Head from "next/head";
 
 const page = () => {
   return (
