@@ -1,33 +1,36 @@
-# Node modules
+# Dependencies
 /node_modules/
 
-# Yarn lock file
-yarn.lock
+# Production
+/out/
+/.next/
+/build/
+/dist/
 
-# Build output
-/dist
-/build
+# Testing
+/coverage/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*.local
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment files
-.env
-.env.*.local
+# OS files
+.DS_Store
+Thumbs.db
 
-# IDE settings
+# Editor
 .vscode/
 .idea/
 
-# Test coverage
-/coverage/
+# Yarn
+yarn.lock
 
-# Temporary files
+# Temporary
 *.swp
 *.swo
