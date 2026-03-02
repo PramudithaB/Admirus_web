@@ -8,7 +8,7 @@ const Header = ({ header }) => {
   }, []);
 
   const HeaderComponent =
-    [Header1, Header2, Header3, Header4][header - 1] || Header1;
+    [Header1, Header2, Header3, Header4][header - 1] || Header2;
   return (
     <>
       <HeaderComponent />
@@ -112,9 +112,13 @@ const Header2 = () => {
             <div className="header-main ">
               <div className="header-left">
                 <div className="logo">
-                  <Link href="/" className="header-logo">
-                    <img src="assets/img/logo/white-logo.png" alt="logo-img" />
-                  </Link>
+                 <Link href="/" className="header-logo">
+  <img 
+    src="assets/img/hero/admirus.jpeg" 
+    alt="logo-img" 
+    style={{ width: "100px", height: "auto", objectFit: "contain" }} 
+  />
+</Link>
                 </div>
               </div>
               <div className="header-right">
@@ -135,7 +139,7 @@ const Header2 = () => {
                     </a>
                     <div className="title">
                       <p>Phone:</p>
-                      <span>(704) 555-0127</span>
+                      <span>(704) 555-0.127</span>
                     </div>
                   </div>
                 </div>
@@ -315,14 +319,14 @@ const Menu = () => {
                     <div className="homemenu-thumb">
                       <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        {/* <Link href="/" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
-                    <div className="homemenu-content text-center">
+                    {/* <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 01</h4>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
@@ -346,33 +350,33 @@ const Menu = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="homemenu-content text-center">
+                    {/* <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 03</h4>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-4.jpg" alt="img" />
                       <div className="demo-button">
-                        <Link href="/index-4" className="theme-btn">
+                        {/* <Link href="/index-4" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
-                    <div className="homemenu-content text-center">
+                    {/* <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 04</h4>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </li>
             </ul>
           </li>
           <li className="has-dropdown active d-xl-none">
-            <a href="#" className="border-none">
+            {/* <a href="#" className="border-none">
               Home
               <i className="fas fa-angle-down" />
-            </a>
-            <ul className="submenu">
+            </a> */}
+            {/* <ul className="submenu">
               <li>
                 <Link href="/index">Home 01</Link>
               </li>
@@ -385,7 +389,7 @@ const Menu = () => {
               <li>
                 <Link href="/index-4">Home 04</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <a href="#">

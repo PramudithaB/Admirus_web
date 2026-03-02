@@ -50,7 +50,7 @@ Integrated Creative Brand OS</h1>
               data-wow-delay="400ms"
             >
               <div className="hero-image ">
-                <img src="assets/img/hero/home1.png" alt />
+                <img src="assets/img/hero/kd.png" alt />
               </div>
             </div>
           </div>
@@ -63,51 +63,51 @@ Integrated Creative Brand OS</h1>
             <div
               className="single-feature-item bg-cover wow fadeInUp"
               data-wow-delay="200ms"
-              style={{ backgroundImage: "url(assets/img/feature/01.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/hero/admirus.jpeg)" }}
             >
               <h4>
                 <Link href="services-details">
-                  UI/UX Design <br /> and Marketing
+                 Digital Marketing<br /> & Production
                 </Link>
               </h4>
             </div>
             <div
               className="single-feature-item bg-cover wow fadeInUp"
               data-wow-delay="400ms"
-              style={{ backgroundImage: "url(assets/img/feature/02.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/feature/eventbyadmirus.jpeg)" }}
             >
               <h4>
-                <Link href="services-details">Digital and Data Analysis</Link>
+                <Link href="services-details">The Events by <br />  Admirus</Link>
               </h4>
             </div>
             <div
               className="single-feature-item bg-cover wow fadeInUp"
               data-wow-delay="600ms"
-              style={{ backgroundImage: "url(assets/img/feature/03.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/feature/drone.jpeg)" }}
             >
               <h4>
                 <Link href="services-details">
-                  &nbsp;IoT SEO and Optimizations
+                  &nbsp;Drone <br />  Mahaththaya
                 </Link>
               </h4>
             </div>
             <div
               className="single-feature-item bg-cover wow fadeInUp"
               data-wow-delay="800ms"
-              style={{ backgroundImage: "url(assets/img/feature/04.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/feature/sugerpixel.jpeg)" }}
             >
               <h4>
-                <Link href="services-details">IoT Mobile App Development</Link>
+                <Link href="services-details">Sugar Pixel <br />  Studio</Link>
               </h4>
             </div>
             <div
               className="single-feature-item bg-cover wow fadeInUp"
               data-wow-delay="1000ms"
-              style={{ backgroundImage: "url(assets/img/feature/05.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/feature/hicloth.jpeg)" }}
             >
               <h4>
                 <Link href="services-details">
-                  Web <br /> Development
+                  Hi<br /> Cloth
                 </Link>
               </h4>
             </div>
