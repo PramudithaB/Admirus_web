@@ -113,12 +113,18 @@ Integrated Creative Brand OS</h1>
         </div>
         <div
           className="features-images bg-cover "
-          style={{ backgroundImage: "url(assets/img/hero/adbg.jpeg)" }}
-        />
+style={{
+  backgroundImage: "url(assets/img/hero/testnew.png)",
+  backgroundSize: "110%",       // slightly increase image size
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  borderRadius: "100px",         // rounded corners
+  padding: "20px"               // increase box size a little
+}}   />
       </section>
       {/* About Section Start */}
       <AboutMe
-        img1="assets/img/about/04.jpg"
+        img1="assets/img/feature/admirus1.jpeg"
         img2="assets/img/about/05.png"
         wrapperClass="about-wrapper about-1 style-2 section-padding about-dark-page"
       />

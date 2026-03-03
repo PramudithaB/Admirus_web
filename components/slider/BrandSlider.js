@@ -11,7 +11,7 @@ const BrandSlider = () => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/01.png" alt />
+            <img src="assets/img/hero/testnew.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
@@ -81,32 +81,32 @@ export const BrandSlider2 = () => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/07.png" alt />
+            <img src="assets/img/brand/brand1.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/08.png" alt />
+            <img src="assets/img/brand/brand2.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/09.png" alt />
+            <img src="assets/img/hero/testnew.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/10.png" alt />
+            <img src="assets/img/hero/testnew.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/11.png" alt />
+            <img src="assets/img/hero/testnew.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-logo">
-            <img src="assets/img/brand/12.png" alt />
+            <img src="assets/img/hero/testnew.png" alt />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
