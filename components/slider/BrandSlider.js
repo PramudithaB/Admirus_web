@@ -85,7 +85,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo1.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -99,7 +99,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo2.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -113,7 +113,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo3.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -127,7 +127,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo4.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -141,7 +141,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo5.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -155,7 +155,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo6.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -169,7 +169,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo7.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -183,7 +183,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo8.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -197,7 +197,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo9.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -211,7 +211,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo10.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -225,7 +225,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo11.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -239,7 +239,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo12.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"
@@ -253,7 +253,7 @@ export const BrandSlider2 = () => {
     src="assets/img/brand/brandlogo13.png"
     alt="brand-logo"
     style={{
-      width: "180px",
+      width: "150px",
       height: "auto",
       objectFit: "contain",
       borderRadius: "12px"

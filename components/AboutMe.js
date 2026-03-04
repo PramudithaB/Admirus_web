@@ -1,7 +1,7 @@
 const AboutMe = ({
   wrapperClass = "about-wrapper about-1 style-2 about-page section-padding",
-  img1 = "assets/img/feature/admirus1.jpeg",
-  img2 = "assets/img/feature/admirus1.jpeg",
+  img1 = "assets/img/feature/admirus1.jpeg", // changed default value
+  img2 = "assets/img/about/bg1.jpeg",
 }) => {
   return (
     <section className={wrapperClass}>
@@ -12,21 +12,37 @@ const AboutMe = ({
             data-wow-delay="300ms"
           >
             <div className="about-images-2">
-              <img
+              {/* <img
                 className="shape-1"
-                src="assets/img/about/shape-1.png"
+                src="assets/img/about/worldgoal.png"
                 alt=""
-              />
+              /> */}
               <img
                 className="shape-2"
-                src="assets/img/feature/admirus1.jpeg"
+                src="assets/img/about/bg1.jpeg"
                 alt=""
               />
               <div className="image-1">
-                <img src={img1} alt="img" />
+                <img
+                  src={img1}
+                  alt="img"
+                  style={{
+                    objectFit: "cover",
+                    width: "125%",
+                    height: "650px",
+                  }}
+                />
               </div>
               <div className="image-2">
-                <img src={img2} alt="img" />
+                <img
+                  src={img2}
+                  alt="img"
+                  style={{
+                    objectFit: "cover",
+                    width: "100%",
+                    height: "300px",
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -40,11 +56,16 @@ const AboutMe = ({
                   <span>ABOUT OUR COMPANY</span>
                 </div>
                 <h2>
-                  One OS, Your Complete Brand Legacy<br /> 
+                  One OS, Your Complete Brand Legacy
+                  <br />
                 </h2>
               </div>
               <p>
-               Admirus Business Circle (Pvt) Ltd operates on a unified architecture where specialized in-house modules run synchronously to build iconic brands. [cite: 22, 24] We believe great branding is a fully operational experience, engineered to be felt and remembered.
+                Admirus Business Circle (Pvt) Ltd operates on a unified
+                architecture where specialized in-house modules run synchronously
+                to build iconic brands.We believe great branding
+                is a fully operational experience, engineered to be felt and
+                remembered.
               </p>
               <ul>
                 <li>
@@ -72,9 +93,7 @@ const AboutMe = ({
                     </div>
                     <h6>Global Company</h6>
                   </div>
-                  <p>
-                    Our great team of more than to 20  member.
-                  </p>
+                  <p>Our great team of more than to 20 member.</p>
                 </div>
               </div>
               <div className="about-infu">
