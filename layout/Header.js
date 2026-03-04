@@ -315,12 +315,12 @@ const Menu = () => {
           <li className="has-dropdown active menu-thumb">
             <Link href="/index-2">
               Home
-              <i className="fas fa-angle-down" />
+              <i className="" />
             </Link>
-            <ul className="submenu has-homemenu">
+            {/* <ul className="submenu has-homemenu">
               <li>
                 <div className="homemenu-items">
-                  {/* <div className="homemenu">
+                  <div className="homemenu">
                     <div className="homemenu-thumb">
                       <img src="assets/img/header/home-1.jpg" alt="img" />
                       <div className="demo-button">
@@ -332,8 +332,8 @@ const Menu = () => {
                     <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 01</h4>
                     </div>
-                  </div> */}
-                  {/* <div className="homemenu">
+                  </div>
+                  <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-2.jpg" alt="img" />
                       <div className="demo-button">
@@ -345,21 +345,21 @@ const Menu = () => {
                     <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 02</h4>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="homemenu">
-                    {/* <div className="homemenu-thumb mb-15">
+                    <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-3.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="/index-3" className="theme-btn">
                           <div className="theme-btn-inner">View Demo</div>
                         </Link>
                       </div>
-                    </div> */}
-                    {/* <div className="homemenu-content text-center">
+                    </div>
+                    <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 03</h4>
-                    </div> */}
+                    </div>
                   </div>
-                  {/* <div className="homemenu">
+                  <div className="homemenu">
                     <div className="homemenu-thumb mb-15">
                       <img src="assets/img/header/home-4.jpg" alt="img" />
                       <div className="demo-button">
@@ -371,10 +371,10 @@ const Menu = () => {
                     <div className="homemenu-content text-center">
                       <h4 className="homemenu-title">Home 04</h4>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="has-dropdown active d-xl-none">
             <a href="#" className="border-none">  </a>

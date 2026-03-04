@@ -137,8 +137,7 @@ style={{
                 <span>OUR SERVICES</span>
               </div>
               <h2 className="text-white split-text right">
-                Preparing for Your Success, We <br /> Provide&nbsp;Truly IT
-                Solutions.
+                Preparing for Your Success We,  <br /> Provide&nbsp;Truly Integrated Brand Solutions.
               </h2>
             </div>
             <div className="service-items">
@@ -150,11 +149,10 @@ style={{
                   <div className="icon">
                     <i className="flaticon-coding" />
                   </div>
-                  <h3>Web Development</h3>
+                  <h3>Digital Marketing & Production</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+                 A powerhouse for SEO, social media, and high-end video production including corporate, commercial, and documentary films.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
@@ -168,11 +166,10 @@ style={{
                   <div className="icon">
                     <i className="flaticon-strategy" />
                   </div>
-                  <h3>Business Planning</h3>
+                  <h3>The Events by Admirus</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+                  Delivering experiential brand activations, full event management, and live streaming to create fully operational brand experiences.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
@@ -186,11 +183,10 @@ style={{
                   <div className="icon">
                     <i className="flaticon-lock" />
                   </div>
-                  <h3>Cyber Security</h3>
+                  <h3>Drone Mahaththaya</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+               Offering aerial videography, sky display services, and drone branding where the sky becomes your brand's canvas.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
@@ -204,11 +200,10 @@ style={{
                   <div className="icon">
                     <i className="flaticon-graphic" />
                   </div>
-                  <h3>Digital Marketing</h3>
+                  <h3>Sugar Pixel Studio</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+                  Premium T-shirt branding for corporate and fashion needs, using advanced embroidery and print technology to wear your story.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
@@ -222,11 +217,10 @@ style={{
                   <div className="icon">
                     <i className="flaticon-link" />{" "}
                   </div>
-                  <h3>Internet Thinking</h3>
+                  <h3>Web & App Development</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+                 Building responsive, user-friendly websites and mobile applications that provide seamless digital experiences for your brand.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
@@ -243,8 +237,7 @@ style={{
                   <h3>UI/UX Design</h3>
                 </div>
                 <p>
-                  Back up your database, store in a safe and secure place while
-                  still maintaining its accessibility.
+                We build responsive, user-friendly digital architectures that provide seamless and scalable brand experiences. Our designs blend aesthetic vision with digital logic to ensure your brand is not just seen, but felt and interacted with.
                 </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
