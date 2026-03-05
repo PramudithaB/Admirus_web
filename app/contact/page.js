@@ -17,7 +17,7 @@ const page = () => {
                 </div>
                 <div className="title">
                   <span>Call Us</span>
-                  <h4>+69 009 494 094</h4>
+                  <h4>076 533 4413</h4>
                 </div>
               </div>
             </div>
@@ -28,7 +28,7 @@ const page = () => {
                 </div>
                 <div className="title">
                   <span>Our Location</span>
-                  <h4>147 New Yors, NY RD 123</h4>
+                  <h4>No. 720,  Floor, Level 07, Jana Jaya City Mall, Rajagiriya</h4>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const page = () => {
                 </div>
                 <div className="title">
                   <span>Mail us</span>
-                  <h4>hello@zotech.com</h4>
+                  <h4>info@admirus.lk</h4>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const page = () => {
       {/* Map Section Start */}
       <div className="office-google-map-wrapper wow fadeInUp">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/search/?api=1&query=Jana+Jaya+City+Mall+Rajagiriya+Sri+Lanka"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"

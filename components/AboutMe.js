@@ -56,42 +56,44 @@ const AboutMe = ({
                   <span>ABOUT OUR COMPANY</span>
                 </div>
                 <h2>
-                  One OS, Your Complete Brand Legacy
+One OS. Your Complete Brand Legacy.
                   <br />
                 </h2>
               </div>
               <p>
-                Admirus Business Circle (Pvt) Ltd operates on a unified
-                architecture where specialized in-house modules run synchronously
-                to build iconic brands.We believe great branding
-                is a fully operational experience, engineered to be felt and
-                remembered.
+               Admirus Business Circle (Pvt) Ltd operates as a high-performance Brand OS, built on a unified architecture where specialized in-house modules run in perfect synchronicity. We move beyond the traditional agency model, functioning as a precision-engineered platform designed to build iconic identities. At Admirus, we believe great branding is a fully operational experience—engineered to be felt, designed to be remembered, and built to sustain a lasting legacy.
               </p>
               <ul>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Website &amp; Mobile application design &amp; Development
+                  Brand Strategy  &amp;& &amp; Design
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Digital Marketing &amp; Social Media Management
+                  Digital Marketing &amp;& Growth
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Graphic Design &amp; Branding
+                  Cinematic Video &amp; & Aerial Production 
                 </li>
+                 <li>
+                  <i className="fas fa-check-circle" />
+                  Event &amp; Production
+                </li>
+                 <li>
+                  <i className="fas fa-check-circle" />
+                  Custom &amp; Apparel
+                </li>
+              
+              
               </ul>
               <div className="feedback">
-                <div className="infu">
-                  <img src="assets/img/about/06.png" alt="" />
-                  <h6>Proven Results Across 300+ Brands</h6>
-                </div>
                 <div className="infu">
                   <div className="icon-box d-flex align-items-center">
                     <div className="icon">
                       <i className="flaticon-cms" />
                     </div>
-                    <h6>Global Company</h6>
+                    <h6>Branding Company</h6>
                   </div>
                   <p>Our great team of more than to 20 member.</p>
                 </div>

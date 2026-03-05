@@ -114,7 +114,7 @@ Integrated Creative Brand OS</h1>
         <div
           className="features-images bg-cover "
 style={{
-  backgroundImage: "url(assets/img/hero/testnew.png)",
+  backgroundImage: "url(assets/img/hero/webbanner.jpeg)",
   backgroundSize: "110%",       // slightly increase image size
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
@@ -146,14 +146,13 @@ style={{
                 data-wow-delay="100ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-coding" />
+                  <div className="">
+                    <i className="" />
                   </div>
-                  <h3>Digital Marketing & Production</h3>
+                  <h3>Strategic Branding</h3>
                 </div>
                 <p>
-                 A powerhouse for SEO, social media, and high-end video production including corporate, commercial, and documentary films.
-                </p>
+Beyond just a logo, we build powerful identities that resonate. From conceptualization to strategic positioning, we create a cohesive brand voice that transforms your business vision into a legendary industry icon.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
@@ -163,14 +162,13 @@ style={{
                 data-wow-delay="200ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-strategy" />
+                  <div className="">
+                    <i className="" />
                   </div>
-                  <h3>The Events by Admirus</h3>
+                  <h3>Social Media Marketing</h3>
                 </div>
                 <p>
-                  Delivering experiential brand activations, full event management, and live streaming to create fully operational brand experiences.
-                </p>
+We don’t just post; we perform. Our data-driven strategies amplify your digital presence, engaging your target audience across all platforms to drive measurable growth and brand loyalty in an ever-evolving digital landscape.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
@@ -180,14 +178,13 @@ style={{
                 data-wow-delay="300ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-lock" />
+                  <div className="">
+                    <i className="" />
                   </div>
-                  <h3>Drone Mahaththaya</h3>
+                  <h3>Content Creation</h3>
                 </div>
                 <p>
-               Offering aerial videography, sky display services, and drone branding where the sky becomes your brand's canvas.
-                </p>
+Storytelling is at our heart. We craft compelling narratives through high-quality visuals and persuasive copy designed to resonate with your customers, spark meaningful conversations, and turn casual observers into brand advocates.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
@@ -197,14 +194,13 @@ style={{
                 data-wow-delay="400ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-graphic" />
+                  <div className="">
+                    <i className="" />
                   </div>
-                  <h3>Sugar Pixel Studio</h3>
+                  <h3>Graphic Designing</h3>
                 </div>
                 <p>
-                  Premium T-shirt branding for corporate and fashion needs, using advanced embroidery and print technology to wear your story.
-                </p>
+Visual excellence in every pixel. From corporate identity suites to high-impact marketing collateral, our designs are meticulously crafted to leave a lasting professional impression while maintaining your brand’s unique aesthetic across all touchpoints.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
@@ -214,14 +210,13 @@ style={{
                 data-wow-delay="500ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-link" />{" "}
+                  <div className="">
+                    <i className="" />{" "}
                   </div>
-                  <h3>Web & App Development</h3>
+                  <h3>Cinematic Video Production</h3>
                 </div>
                 <p>
-                 Building responsive, user-friendly websites and mobile applications that provide seamless digital experiences for your brand.
-                </p>
+Bring your brand to life with high-definition storytelling. We produce cinematic commercials, brand films, and high-energy social clips that capture attention instantly, evoke emotion, and deliver your message with unparalleled visual impact.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
@@ -231,18 +226,70 @@ style={{
                 data-wow-delay="600ms"
               >
                 <div className="title d-flex align-items-center">
-                  <div className="icon">
-                    <i className="flaticon-user-experience" />{" "}
+                  <div className="">
+                    <i className="" />{" "}
                   </div>
-                  <h3>UI/UX Design</h3>
+                  <h3>Aerial Drone Production</h3>
                 </div>
                 <p>
-                We build responsive, user-friendly digital architectures that provide seamless and scalable brand experiences. Our designs blend aesthetic vision with digital logic to ensure your brand is not just seen, but felt and interacted with.
-                </p>
+Take your brand to the skies with cutting-edge aerial innovation. Beyond cinematic 4K videography, we specialize in high-impact sky branding—including LED air displays, branded flag flights, and precision flower drops—to turn the horizon into your ultimate billboard.                </p>
                 <Link href="services-details">
                   Read More <i className="fal fa-long-arrow-right" />
                 </Link>
               </div>
+
+                <div
+                className="signle-service-item wow fadeInUp"
+                data-wow-delay="600ms"
+              >
+                <div className="title d-flex align-items-center">
+                  <div className="">
+                    <i className="" />{" "}
+                  </div>
+                  <h3>Event Production</h3>
+                </div>
+                <p>
+From concept to flawless execution, we create immersive experiences. Whether it’s a high-profile brand launch or a corporate gala, we handle the technical spectacle and ground coordination so your brand remains the center of attention.   </p>
+                <Link href="services-details">
+                  Read More <i className="fal fa-long-arrow-right" />
+                </Link>
+              </div>
+
+  <div
+                className="signle-service-item wow fadeInUp"
+                data-wow-delay="600ms"
+              >
+                <div className="title d-flex align-items-center">
+                  <div className="">
+                    <i className="" />{" "}
+                  </div>
+                  <h3>Website Development & SEO</h3>
+                </div>
+                <p>
+Your digital storefront should be flawless and functional. We build high-performance, responsive websites optimized for search engines to ensure your brand is found first, providing a seamless user experience that converts visitors into clients. </p>
+                <Link href="services-details">
+                  Read More <i className="fal fa-long-arrow-right" />
+                </Link>
+              </div>
+
+                <div
+                className="signle-service-item wow fadeInUp"
+                data-wow-delay="600ms"
+              >
+                <div className="title d-flex align-items-center">
+                  <div className="">
+                    <i className="" />{" "}
+                  </div>
+                  <h3>Custom T-shirt Printing</h3>
+                </div>
+                <p>
+Wear your brand with pride. We provide premium-quality apparel solutions for any garment type, utilizing high-grade Embroidery, Screen Printing, DTF, and Sublimation techniques. Whether for your team or community, we ensure your brand is represented with style, durability, and a professional finish that reflects your excellence.  </p>
+                <Link href="services-details">
+                  Read More <i className="fal fa-long-arrow-right" />
+                </Link>
+              </div>
+
+
             </div>
             <div className="button mt-5 pt-xl-3 d-flex align-items-center justify-content-center">
               <Link href="services-details" className="theme-btn">
@@ -259,23 +306,27 @@ style={{
         </div>
       </section>
       {/* Video Section Start */}
-      <div className="video-wrapper video-1 style-2">
-        <div className="container">
-          <div
-            className="video-image bg-cover wow fadeInUp"
-            data-wow-delay="300ms"
-            style={{ backgroundImage: "url(assets/img/video-02.jpg)" }}
-          >
-            <a
-              href="https://www.youtube.com/watch?v=h9MbznbxlLc"
-              className="video-button video-popup"
-            >
-              <i className="fas fa-play" />
-              <i className="video-button-ripple" />
-            </a>
-          </div>
-        </div>
-      </div>
+   <div className="video-wrapper video-1 style-2">
+  <div className="container">
+    <div
+      className="video-image wow fadeInUp"
+      data-wow-delay="300ms"
+      style={{ borderRadius: "12px", overflow: "hidden" }}
+    >
+      <video
+        controls
+        autoPlay
+        muted
+        loop
+        playsInline
+        style={{ width: "100%", height: "400px", objectFit: "cover" }}
+      >
+        <source src="/video/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
       {/* Brand Section Start */}
       <div className="brand-wrapper brand-1 style-2 section-padding">
         <div className="container">
@@ -435,7 +486,7 @@ style={{
         </div>
       </section>
       {/* Pricing Section Start */}
-      <section className="pricing-wrapper pricing-1 section-padding">
+      {/* <section className="pricing-wrapper pricing-1 section-padding">
         <div className="container">
           <div className="row g-5">
             <div
@@ -551,7 +602,7 @@ style={{
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Section Start */}
       <section className="testimonial-wrapper testimonial-2 section-padding pt-0">
         <div className="shape">

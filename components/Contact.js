@@ -20,7 +20,7 @@ const Contact = ({
                 <span>CONTACT US</span>
               </div>
               <h2 className="split-text right">
-                To Make Requests for <br /> Further Information, <br />
+                Admirus Business Circle (Pvt) Ltd  <br />
                 Contact Us
               </h2>
             </div>
@@ -31,7 +31,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Call Us</p>
-                  <h3>+69 009 494 094</h3>
+                  <h3>076 533 4413</h3>
                 </div>
               </div>
               <div className="infu-box d-flex align-items-center">
@@ -40,7 +40,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Our Location</p>
-                  <h3>147 New Yors, NY Adipisicing 123</h3>
+                  <h3>No. 720,  Floor, Level 07, Jana Jaya City Mall, Rajagiriya</h3>
                 </div>
               </div>
               <div className="infu-box d-flex align-items-center">
@@ -49,7 +49,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Mail us</p>
-                  <h3>hello@zotech.com</h3>
+                  <h3>info@admirus.lk</h3>
                 </div>
               </div>
             </div>
