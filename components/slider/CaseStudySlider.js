@@ -118,7 +118,7 @@ const CaseStudySlider = () => {
             data-wow-delay="400ms"
           >
             <div className="image">
-              <img src="assets/img/case/02.jpg" alt />
+              <img src="assets/img/blog/blog1.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -139,7 +139,7 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/03.jpg" alt />
+              <img src="assets/img/blog/blog3.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -160,11 +160,11 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/04.jpg" alt />
+              <img src="assets/img/blog/blog2.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
-                <span>MANAGMENT</span>
+                <span>Event Branding</span>
                 <h4>
                   <Link href="projects-details">03. Business Managment</Link>
                 </h4>
@@ -191,7 +191,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="200ms">
             <div className="image">
-              <img src="assets/img/case/05.jpg" alt />
+              <img src="assets/img/blog/blog1.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -209,7 +209,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="400ms">
             <div className="image">
-              <img src="assets/img/case/06.jpg" alt />
+              <img src="assets/img/blog/blog3.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -229,7 +229,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="600ms">
             <div className="image">
-              <img src="assets/img/case/07.jpg" alt />
+              <img src="assets/img/blog/blog1.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -249,14 +249,14 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="600ms">
             <div className="image">
-              <img src="assets/img/case/08.jpg" alt />
+              <img src="assets/img/blog/blog2.jpeg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
-                <span>MANAGMENT</span>
+                <span>Event Branding Campaign</span>
                 <h4>
                   <Link href="projects-details">
-                    Business <br /> Managment
+                    Event <br /> Branding
                   </Link>
                 </h4>
               </div>

@@ -641,7 +641,7 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                   <h2>
                     {" "}
                     <span className="count">
-                      <Counter end={24} />
+                      <Counter end={4} />
                     </span>
                     +
                   </h2>
@@ -662,13 +662,13 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                     <span>WHY CHOOSE US</span>
                   </div>
                   <h2 className="text-white split-text right">
-                    Preparing for your success, we provide truly prominent{" "}
-                    <br /> IT solutions
+                    One Partner. Every Platform. 
+{" "}
+                    <br /> No Limits
                   </h2>
                 </div>
                 <p className="text">
-                  World-class tech teams We’ll match you to an entire remote
-                  team of incredible freelance talent for all your software.
+            We are not just an agency; we are your complete creative operating system. We integrate branding, digital marketing, video production, events, and aerial innovation into one seamless platform.
                 </p>
                 <div className="progress-items">
                   <div className="progress">
@@ -678,7 +678,7 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                     />
                   </div>
                   <div className="point">
-                    <p className="text-white ">IT Management</p>
+                    <p className="text-white ">Digital Marketing</p>
                     <span className="text-white">95%</span>
                   </div>
                 </div>
@@ -690,7 +690,7 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                     />
                   </div>
                   <div className="point">
-                    <p className="text-white">Data Security</p>
+                    <p className="text-white">Branding Campaign</p>
                     <span className="text-white">90%</span>
                   </div>
                 </div>
@@ -703,7 +703,7 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                   </div>
                   <div className="point">
                     <p className="text-white">Software Development</p>
-                    <span className="text-white">78%</span>
+                    <span className="text-white">80%</span>
                   </div>
                 </div>
               </div>
@@ -729,14 +729,14 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={69} />
+                      <Counter end={10} />
                     </span>
                     +
                   </h2>
                   <p>Team Member</p>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="single-funfact-item wow fadeInUp"
                 data-wow-delay="400ms"
               >
@@ -746,13 +746,13 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={98} />
+                      <Counter end={20} />
                     </span>
                     %
                   </h2>
-                  <p>Team Member</p>
+                  <p>Ground level Team Member</p>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="single-funfact-item wow fadeInUp"
                 data-wow-delay="600ms"
@@ -763,11 +763,11 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={6795} />
+                      <Counter end={20} />
                     </span>
                     +
                   </h2>
-                  <p>Team Member</p>
+                  <p>Ground level Team Member</p>
                 </div>
               </div>
             </div>
@@ -861,13 +861,9 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/04.jpg" alt />
-                    <img src="assets/img/blog/04.jpg" alt />
-                    <div className="date d-flex align-items-center justify-content-center">
-                      <h6>
-                        12<span>jan</span>
-                      </h6>
-                    </div>
+                    <img src="assets/img/blog/blog1.jpeg" alt />
+                    <img src="assets/img/blog/blog1.jpeg" alt />
+                   
                   </div>
                   <div className="content">
                     <ul>
@@ -895,13 +891,9 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/05.jpg" alt />
-                    <img src="assets/img/blog/05.jpg" alt />
-                    <div className="date d-flex align-items-center justify-content-center">
-                      <h6>
-                        12<span>jan</span>
-                      </h6>
-                    </div>
+                    <img src="assets/img/blog/blog2.jpeg" alt />
+                    <img src="assets/img/blog/blog2.jpeg" alt />
+                   
                   </div>
                   <div className="content">
                     <ul>
@@ -929,13 +921,9 @@ Wear your brand with pride. We provide premium-quality apparel solutions for any
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/06.jpg" alt />
-                    <img src="assets/img/blog/06.jpg" alt />
-                    <div className="date d-flex align-items-center justify-content-center">
-                      <h6>
-                        12<span>jan</span>
-                      </h6>
-                    </div>
+                    <img src="assets/img/blog/blog3.jpeg" alt />
+                    <img src="assets/img/blog/blog3.jpeg" alt />
+                    
                   </div>
                   <div className="content">
                     <ul>
