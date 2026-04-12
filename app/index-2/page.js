@@ -24,14 +24,60 @@ const serviceItems = [
 
   },
   {
-    title: "Event Experiences",
+    title: "Content Creations",
     description:
-      "From planning to execution, our team delivers unforgettable event experiences with seamless coordination, immersive design, and powerful brand messaging.",
+      "Storytelling is at our heart. We craft compelling narratives through high-quality visuals and persuasive copy designed to resonate with your customers, spark meaningful conversations, and turn casual observers into brand advocates",
+
+
   },
   {
-    title: "Aerial Media",
+    title: "Grapic Design",
     description:
-      "Our drone teams capture stunning aerial footage and innovative visuals to elevate your campaigns and bring a fresh perspective to every production.",
+      "Visual excellence in every pixel. From corporate identity suites to high-impact marketing collateral, our designs are meticulously crafted to leave a lasting professional impression while maintaining your brand’s unique aesthetic across all touchpoints.",
+
+
+  },
+   {
+    title: "Cinematic Video production",
+    description:
+      "Bring your brand to life with high-definition storytelling. We produce cinematic commercials, brand films, and high-energy social clips that capture attention instantly, evoke emotion, and deliver your message with unparalleled visual impact.",
+
+
+
+
+
+  }, {
+    title: "Aerial Drone Production",
+    description:
+      "Take your brand to the skies with cutting-edge aerial innovation. Beyond cinematic 4K videography, we specialize in high-impact sky branding—including LED air displays, branded flag flights, and precision flower drops—to turn the horizon into your ultimate billboard.",
+
+
+
+
+  }, {
+    title: "Event Production",
+    description:
+      "From concept to flawless execution, we create immersive experiences. Whether it’s a high-profile brand launch or a corporate gala, we handle the technical spectacle and ground coordination so your brand remains the center of attention.",
+
+
+
+
+  }, {
+    title: "Website development & SEO",
+    description:
+      "Your digital storefront should be flawless and functional. We build high-performance, responsive websites optimized for search engines to ensure your brand is found first, providing a seamless user experience that converts visitors into clients.",
+
+
+
+  },
+   {
+    title: "Custom T-Shirt Printing",
+    description:
+      "Wear your brand with pride. We provide premium-quality apparel solutions for any garment type, utilizing high-grade Embroidery, Screen Printing, DTF, and Sublimation techniques. Whether for your team or community, we ensure your brand is represented with style, durability, and a professional finish that reflects your excellence.",
+
+
+
+
   },
 ];
 
