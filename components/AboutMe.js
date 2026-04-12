@@ -21,6 +21,10 @@ const AboutMe = ({
                 className="shape-2"
                 src="assets/img/about/bg1.jpeg"
                 alt=""
+                style={{
+                  transform: "translateY(40px)", // Change 40px to however much you want it to go down
+                }}
+                
               />
               <div className="image-1">
                 <img
@@ -28,9 +32,11 @@ const AboutMe = ({
                   alt="img"
                   style={{
                     objectFit: "cover",
-                    width: "125%",
-                    height: "650px",
-                  }}
+                    width: "115%",
+                    height: "610px",
+transform: "translate(-50px, 55px)", 
+      position: "relative",
+      zIndex: "1"                  }}
                 />
               </div>
               <div className="image-2">
@@ -41,6 +47,7 @@ const AboutMe = ({
                     objectFit: "cover",
                     width: "100%",
                     height: "300px",
+                    transform: "translateY(40px)", // Change 40px to however much you want it to go down
                   }}
                 />
               </div>
@@ -66,28 +73,24 @@ One OS. Your Complete Brand Legacy.
               <ul>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Brand Strategy  &amp;& &amp; Design
+                  Brand Strategy  &amp; Design
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Digital Marketing &amp;& Growth
+                  Digital Marketing &amp; Growth
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Cinematic Video &amp; & Aerial Production 
+                  Cinematic Video &amp; Aerial Production 
                 </li>
                  <li>
                   <i className="fas fa-check-circle" />
                   Event &amp; Production
                 </li>
-                 <li>
-                  <i className="fas fa-check-circle" />
-                  Custom &amp; Apparel
-                </li>
-              
+               
               
               </ul>
-              <div className="feedback">
+              {/* <div className="feedback">
                 <div className="infu">
                   <div className="icon-box d-flex align-items-center">
                     <div className="icon">
@@ -97,7 +100,7 @@ One OS. Your Complete Brand Legacy.
                   </div>
                   <p>Our great team of more than to 20 member.</p>
                 </div>
-              </div>
+              </div> */}
               <div className="about-infu">
                 <a href="" className="theme-btn">
                   Get In Touch

@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import AboutMe from "@/components/AboutMe";
 import Counter from "@/components/Counter";
 import { BrandSlider2 } from "@/components/slider/BrandSlider";
@@ -7,7 +10,47 @@ import { Home2Accordion } from "@/components/ZotechAccordion";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";
 
+const serviceItems = [
+  {
+    title: "Strategic Branding",
+    description:
+      "Beyond just a logo, we build powerful identities that resonate. From conceptualization to strategic positioning, we create a cohesive brand voice that transforms your business vision into a legendary industry iconn.",
+
+  },
+  {
+    title: "Social Media Marketing",
+    description:
+      "We don’t just post; we perform. Our data-driven strategies amplify your digital presence, engaging your target audience across all platforms to drive measurable growth and brand loyalty in an ever-evolving digital landscape.",
+
+  },
+  {
+    title: "Event Experiences",
+    description:
+      "From planning to execution, our team delivers unforgettable event experiences with seamless coordination, immersive design, and powerful brand messaging.",
+  },
+  {
+    title: "Aerial Media",
+    description:
+      "Our drone teams capture stunning aerial footage and innovative visuals to elevate your campaigns and bring a fresh perspective to every production.",
+  },
+];
+
+
+
+
+
+
 const page = () => {
+  const [expandedItems, setExpandedItems] = useState(
+    Array(serviceItems.length).fill(false)
+  );
+
+  const toggleExpand = (index) => {
+    setExpandedItems((prev) =>
+      prev.map((value, i) => (i === index ? !value : value))
+    );
+  };
+
   return (
     
     <ZotechLayout header={2} footer={2} bodyClass="section-bg-2">
@@ -111,7 +154,7 @@ Integrated Creative Brand OS</h1>
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="features-images bg-cover "
 style={{
   backgroundImage: "url(assets/img/hero/webbanner.jpeg)",
@@ -120,7 +163,7 @@ style={{
   backgroundRepeat: "no-repeat",
   borderRadius: "100px",         // rounded corners
   padding: "20px"               // increase box size a little
-}}   />
+}}   /> */}
       </section>
       {/* About Section Start */}
       <AboutMe
@@ -141,155 +184,39 @@ style={{
               </h2>
             </div>
             <div className="service-items">
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />
+              {serviceItems.map((item, index) => {
+                const shortText = item.description.slice(0, 120);
+                const isExpanded = expandedItems[index];
+                return (
+                  <div
+                    className="signle-service-item wow fadeInUp"
+                    data-wow-delay={`${100 + index * 100}ms`}
+                    key={item.title}
+                  >
+                    <div className="title d-flex align-items-center">
+                      <div className="">
+                        <i className="" />
+                      </div>
+                      <h3>{item.title}</h3>
+                    </div>
+                    <p>
+                      {isExpanded ? item.description : `${shortText}${item.description.length > 120 ? "..." : ""}`}
+                    </p>
+                    {item.description.length > 120 && (
+                      <button
+                        type="button"
+                        onClick={() => toggleExpand(index)}
+                        className="theme-btn trasparent-btn mt-3"
+                        style={{ padding: "8px 14px", fontSize: "14px" }}
+                      >
+                        {isExpanded ? "Show Less" : "Show More"}
+                        <i className={`fal ${isExpanded ? "fa-chevron-up" : "fa-chevron-down"} ms-2`} />
+                      </button>
+                    )}
+                  
                   </div>
-                  <h3>Strategic Branding</h3>
-                </div>
-                <p>
-Beyond just a logo, we build powerful identities that resonate. From conceptualization to strategic positioning, we create a cohesive brand voice that transforms your business vision into a legendary industry icon.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />
-                  </div>
-                  <h3>Social Media Marketing</h3>
-                </div>
-                <p>
-We don’t just post; we perform. Our data-driven strategies amplify your digital presence, engaging your target audience across all platforms to drive measurable growth and brand loyalty in an ever-evolving digital landscape.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />
-                  </div>
-                  <h3>Content Creation</h3>
-                </div>
-                <p>
-Storytelling is at our heart. We craft compelling narratives through high-quality visuals and persuasive copy designed to resonate with your customers, spark meaningful conversations, and turn casual observers into brand advocates.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />
-                  </div>
-                  <h3>Graphic Designing</h3>
-                </div>
-                <p>
-Visual excellence in every pixel. From corporate identity suites to high-impact marketing collateral, our designs are meticulously crafted to leave a lasting professional impression while maintaining your brand’s unique aesthetic across all touchpoints.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="500ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />{" "}
-                  </div>
-                  <h3>Cinematic Video Production</h3>
-                </div>
-                <p>
-Bring your brand to life with high-definition storytelling. We produce cinematic commercials, brand films, and high-energy social clips that capture attention instantly, evoke emotion, and deliver your message with unparalleled visual impact.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-              <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />{" "}
-                  </div>
-                  <h3>Aerial Drone Production</h3>
-                </div>
-                <p>
-Take your brand to the skies with cutting-edge aerial innovation. Beyond cinematic 4K videography, we specialize in high-impact sky branding—including LED air displays, branded flag flights, and precision flower drops—to turn the horizon into your ultimate billboard.                </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-
-                <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />{" "}
-                  </div>
-                  <h3>Event Production</h3>
-                </div>
-                <p>
-From concept to flawless execution, we create immersive experiences. Whether it’s a high-profile brand launch or a corporate gala, we handle the technical spectacle and ground coordination so your brand remains the center of attention.   </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-
-  <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />{" "}
-                  </div>
-                  <h3>Website Development & SEO</h3>
-                </div>
-                <p>
-Your digital storefront should be flawless and functional. We build high-performance, responsive websites optimized for search engines to ensure your brand is found first, providing a seamless user experience that converts visitors into clients. </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-
-                <div
-                className="signle-service-item wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="title d-flex align-items-center">
-                  <div className="">
-                    <i className="" />{" "}
-                  </div>
-                  <h3>Custom T-shirt Printing</h3>
-                </div>
-                <p>
-Wear your brand with pride. We provide premium-quality apparel solutions for any garment type, utilizing high-grade Embroidery, Screen Printing, DTF, and Sublimation techniques. Whether for your team or community, we ensure your brand is represented with style, durability, and a professional finish that reflects your excellence.  </p>
-                <Link href="services-details">
-                  Read More <i className="fal fa-long-arrow-right" />
-                </Link>
-              </div>
-
-
+                );
+              })}
             </div>
             <div className="button mt-5 pt-xl-3 d-flex align-items-center justify-content-center">
               <Link href="services-details" className="theme-btn">
