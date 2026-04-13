@@ -317,13 +317,10 @@ style={{
                 <span>OUR SERVICES</span>
               </div>
               <h2 className="text-white split-text right">
-                We Are Web Designers, Developers, Project Managers
+                We Are Brand Builders, Storytellers, and Experience Makers. We Create Integrated Brand Solutions That Drive Results.
               </h2>
             </div>
-            <p className="text-white">
-              World-class tech teams We’ll match you to an entire remote team of
-              incredible freelance talent for all your software.
-            </p>
+           
           </div>
           <div className="row">
             <div
