@@ -1,7 +1,6 @@
 const AboutMe = ({
   wrapperClass = "about-wrapper about-1 style-2 about-page section-padding",
   img1 = "assets/img/feature/admirus1.jpeg", // changed default value
-  img2 = "assets/img/about/bg1.jpeg",
 }) => {
   return (
     <section className={wrapperClass}>
@@ -17,15 +16,6 @@ const AboutMe = ({
                 src="assets/img/about/worldgoal.png"
                 alt=""
               /> */}
-              <img
-                className="shape-2"
-                src="assets/img/about/bg1.jpeg"
-                alt=""
-                style={{
-                  transform: "translateY(40px)", // Change 40px to however much you want it to go down
-                }}
-                
-              />
               <div className="image-1">
                 <img
                   src={img1}
@@ -37,18 +27,6 @@ const AboutMe = ({
 transform: "translate(-50px, 55px)", 
       position: "relative",
       zIndex: "1"                  }}
-                />
-              </div>
-              <div className="image-2">
-                <img
-                  src={img2}
-                  alt="img"
-                  style={{
-                    objectFit: "cover",
-                    width: "100%",
-                    height: "300px",
-                    transform: "translateY(40px)", // Change 40px to however much you want it to go down
-                  }}
                 />
               </div>
             </div>
@@ -68,8 +46,7 @@ One OS. Your Complete Brand Legacy.
                 </h2>
               </div>
               <p>
-               Admirus Business Circle (Pvt) Ltd operates as a high-performance Brand OS, built on a unified architecture where specialized in-house modules run in perfect synchronicity. We move beyond the traditional agency model, functioning as a precision-engineered platform designed to build iconic identities. At Admirus, we believe great branding is a fully operational experience—engineered to be felt, designed to be remembered, and built to sustain a lasting legacy.
-              </p>
+Admirus Business Circle (Pvt) Ltd operates as a high-performance Brand OS with specialized in-house modules working in sync. We go beyond the traditional agency model, building iconic identities through a precision-driven platform. At Admirus, branding is more than design—it’s an experience built to be felt, remembered, and to create a lasting legacy.              </p>
               <ul>
                 <li>
                   <i className="fas fa-check-circle" />
@@ -102,16 +79,21 @@ One OS. Your Complete Brand Legacy.
                 </div>
               </div> */}
               <div className="about-infu">
-                <a href="" className="theme-btn">
-                  Get In Touch
-                </a>
+                <a
+  href="https://wa.me/94765334413"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="theme-btn"
+>
+  Get In Touch
+</a>
                 <div className="contact-us">
                   <img src="assets/img/about/03.png" alt="" />
                   <div className="text">
                     <span className="text-white opacity-50">
                       Call to ask any question
                     </span>
-                    <h4 className="text-white">+94 76 037 4123</h4>
+                    <h4 className="text-white">+94 76 533 4413</h4>
                   </div>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import "@css/swiper-bundle.min.css";
 import "@css/main.css";
 
 import Preloader from "@/components/Preloader";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import { DM_Sans, Montserrat } from "next/font/google";
 
 const montserratFont = Montserrat({
@@ -28,6 +29,9 @@ export const metadata = {
   title: "Admirus.lk – Creative Brand OS",
   description:
     "Sri Lanka’s leading integrated creative brand OS and digital agency.",
+  icons: {
+    icon: '/assets/img/hero/admirus.jpeg',
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -39,6 +43,7 @@ export default function RootLayout({ children }) {
       <body>
         <Preloader />
         {children}
+        <WhatsAppFloatingButton />
       </body>
     </html>
   );

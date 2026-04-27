@@ -144,7 +144,7 @@ const Header2 = () => {
                     </a>
                     <div className="title">
                       <p>Phone:</p>
-                      <span>+94 76 037 4123</span>
+                      <span>+94 76 533 4413</span>
                     </div>
                   </div>
                 </div>

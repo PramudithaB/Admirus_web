@@ -126,7 +126,7 @@ Integrated Creative Brand OS</h1>
                   integrating strategy, storytelling, production, and promotion into one intelligent, scalable system
                 </p>
                 <div className="hero-button mt-4">
-                  <Link href="/contact" className="theme-btn">
+                  <Link href="https://wa.me/94765334413" target="_blank" rel="noopener noreferrer" className="theme-btn">
                     Let's Build Your Brand Universe
                   </Link>
                 </div>
@@ -214,7 +214,7 @@ style={{
       {/* About Section Start */}
       <AboutMe
         img1="assets/img/feature/admirus1.jpeg"
-        img2="assets/img/about/05.png"
+       
         wrapperClass="about-wrapper about-1 style-2 section-padding about-dark-page"
       />
       {/* Service Section Start */}
@@ -231,7 +231,7 @@ style={{
             </div>
             <div className="service-items">
               {serviceItems.map((item, index) => {
-                const shortText = item.description.slice(0, 120);
+                const shortText = item.description.slice(0, 0);
                 const isExpanded = expandedItems[index];
                 return (
                   <div
@@ -246,7 +246,7 @@ style={{
                       <h3>{item.title}</h3>
                     </div>
                     <p>
-                      {isExpanded ? item.description : `${shortText}${item.description.length > 120 ? "..." : ""}`}
+                      {isExpanded ? item.description : `${shortText}${item.description.length > 120 ? "" : ""}`}
                     </p>
                     {item.description.length > 120 && (
                       <button
@@ -265,11 +265,11 @@ style={{
               })}
             </div>
             <div className="button mt-5 pt-xl-3 d-flex align-items-center justify-content-center">
-              <Link href="services-details" className="theme-btn">
+              <Link href="https://wa.me/94765334413" target="_blank" rel="noopener noreferrer" className="theme-btn">
                 Take a Consultant
               </Link>
               <a
-                hLinkef="services-details"
+                href="services-details"
                 className="theme-btn trasparent-btn "
               >
                 All Services
@@ -317,7 +317,7 @@ style={{
                 <span>OUR SERVICES</span>
               </div>
               <h2 className="text-white split-text right">
-                We Are Brand Builders, Storytellers, and Experience Makers. We Create Integrated Brand Solutions That Drive Results.
+                We Are Web Designers,Developers, Project Managers, and Digital Marketers,
               </h2>
             </div>
            
@@ -339,11 +339,11 @@ style={{
                 <div className="icon">
                   <i className="flaticon-management" />
                 </div>
-                <h4>Learning a new skill, or pursuing a passion</h4>
+                <h4>Strategic Branding & Identity</h4>
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={84} />
+                      <Counter end={135} />
                     </span>
                     +
                   </h2>
@@ -371,7 +371,7 @@ style={{
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={695} />
+                      <Counter end={295} />
                     </span>
                     +
                   </h2>
