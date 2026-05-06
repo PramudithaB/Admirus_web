@@ -59,6 +59,11 @@ export const Team = ({ teamMembers }) => {
           key={index}
           className="col-xl-3 col-lg-4 col-md-6 col-12 wow fadeInUp"
           data-wow-delay={member.delay}
+          style={
+            index === 0 || index === 1
+              ? { marginBottom: "30px" }
+              : {}
+          }
         >
           <div className="single-team-item">
             <img className="shape-1" src="assets/img/shape/shape-11.png" alt />

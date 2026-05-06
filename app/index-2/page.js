@@ -339,15 +339,15 @@ style={{
                 <div className="icon">
                   <i className="flaticon-management" />
                 </div>
-                <h4>Strategic Branding & Identity</h4>
+                <h4>Trusted by Global & Local Clients</h4>
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={135} />
+                      <Counter end={150} />
                     </span>
                     +
                   </h2>
-                  <p>Social Network</p>
+                  <p>150+ Happy Clients</p>
                 </div>
               </div>
             </div>
@@ -367,11 +367,11 @@ style={{
                 <div className="icon">
                   <i className="flaticon-world" />
                 </div>
-                <h4>Team already finished this project</h4>
+                <h4>Proven Excellence in Execution</h4>
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={295} />
+                      <Counter end={135} />
                     </span>
                     +
                   </h2>
@@ -387,15 +387,15 @@ style={{
                 <div className="icon">
                   <i className="flaticon-strategy" />{" "}
                 </div>
-                <h4>The percentage of IT Investments</h4>
+                <h4>Strategic Branding Success</h4>
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={68} />
+                      <Counter end={99.8} />
                     </span>
                     %
                   </h2>
-                  <p>Total Investment</p>
+                  <p>Success Rate</p>
                 </div>
               </div>
             </div>
@@ -415,15 +415,15 @@ style={{
                 <div className="icon">
                   <i className="flaticon-expert-system" />{" "}
                 </div>
-                <h4>Every software solution be integrated</h4>
+                <h4>Pioneer in Aerial Branding</h4>
                 <div className="count-box">
                   <h2>
                     <span className="count">
-                      <Counter end={303} />
+                      <Counter end={1200} />
                     </span>
                     +
                   </h2>
-                  <p>Software Update</p>
+                  <p>Flying Hours</p>
                 </div>
               </div>
             </div>
@@ -445,10 +445,10 @@ style={{
       >
         <div className="section-title text-center">
           <div className="sub-title">
-            <span>OUR CASE STUDY</span>
+            <span>THE PORTFOLIO OF EXCELLENCE</span>
           </div>
           <h2 className="text-white split-text right">
-            We Delivered Best Solution
+           Crafting Legacies through Integrated Branding.
           </h2>
         </div>
         <div className="case-study-inner mt-5">
@@ -584,7 +584,7 @@ style={{
               <span>OUR TESTIMONIAL</span>
             </div>
             <h2 className="text-white split-text right">
-              20k+ Satisfied Clients Worldwide
+             Empowering Brands to Dominate the Market.
             </h2>
           </div>
           <div className="testimonial-inner-2 mt-5">
@@ -928,9 +928,9 @@ style={{
             </div>
             <div className="title">
               <h3 className="split-text right">
-                Looking for the Best IT Business Solutions?
+               Main Heading: Looking for the Ultimate Creative Partner?
               </h3>
-              <p>As a app web crawler expert, We will help to organize.</p>
+              <p>As experts in Integrated Branding Solutions, we empower your business through strategic creativity and futuristic technology.</p>
             </div>
             <a href className="theme-btn white-btn">
               Take a Consultant

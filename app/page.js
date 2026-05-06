@@ -23,11 +23,11 @@ const page = () => {
               backgroundImage: 'url("assets/img/hero/hero-1-1-bg.png")',
             }}
           ></div>
-          <div className="container">
+          <div className="container"> {/* Ensure container for responsiveness */}
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-                <div className="hero-content pe-xl-3 text-lg-start text-center ">
-                  <h1>Empowering Ideas with Technological Exce llence</h1>
+                <div className="hero-content pe-xl-3 text-lg-start text-center">
+                  <h1>Empowering Ideas with Technological Excellence</h1> {/* Fixed typo: "Exce llence" to "Excellence" */}
                   <p>
                     In today's competitive business, the demand for efficient
                     and cost-effective IT solutions has never been more
@@ -55,7 +55,7 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-6 col-lg-6 col-md-12 col-12  wow fadeInUp"
+                className="col-xl-6 col-lg-6 col-md-12 col-12 wow fadeInUp"
                 data-wow-delay="300ms"
               >
                 <div className="hero-image">
